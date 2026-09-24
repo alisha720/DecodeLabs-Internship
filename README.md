@@ -1,25 +1,20 @@
-# Iris Flower Classification using KNN
+# Rule-Based AI Chatbot
 
 ## Description
-This project uses the Iris dataset to classify iris flowers into different species using the K-Nearest Neighbors (KNN) algorithm.
+A simple rule-based AI chatbot built using Python. It responds to predefined user inputs and provides a fallback response for unknown inputs.
 
-The project:
-- Loads the Iris dataset using Scikit-learn
-- Splits the data into training and testing sets
-- Trains a KNN classification model
-- Predicts the flower classes
-- Calculates the model accuracy
+## Features
+- Predefined responses
+- User input sanitization
+- Continuous conversation loop
+- Fallback response
+- Exit command
 
 ## How to Run
-
 1. Make sure Python is installed.
-2. Install the required library:
-   pip install scikit-learn
-3. Run the Python file:
-   python iris_knn.py
-
-## Algorithm
-K-Nearest Neighbors (KNN)
-
-## Result
-The model achieved an accuracy of 1.0 on the test data.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Run:
+   python chatbot.py
+5. Type your message and interact with the chatbot.
+6. Type exit to end the conversation.
